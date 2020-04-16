@@ -1,0 +1,65 @@
+/* Impostazione reset generale */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Impostazione conteiner generale */
+.conteiner{
+  padding: 10px;
+}
+/* Impostazione header */
+header{
+  background: #FFFF3B;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 1%;
+}
+/* Impostazione main generale*/
+/* Main sinistro */
+main .col_left{
+  background: #CC87DA;
+  width: 23.5%;
+  height: 250px;
+  float: left;
+}
+/* Main centrale */
+main .col_center{
+  background: #730671;
+  width: 50%;
+  height: 350px;
+  margin: 0px 1.5%;
+  float: left;
+}
+/* Main destro */
+main .col_right .top{
+  background: #CC87DA;
+  width: 23.5%;
+  height: 150px;
+  float: left;
+  margin-bottom: 1.5%;
+}
+main .col_right .top::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+main .col_right .bottom{
+  background: #CC87DA;
+  width: 23.5%;
+  height: 150px;
+  float: left;
+}
+/* Impostazione clearfix main */
+main::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+/* Impostazione footer */
+footer{
+  background: #A3D1E0;
+  width: 100%;
+  height: 100px;
+  margin-top: 1%;
+}
